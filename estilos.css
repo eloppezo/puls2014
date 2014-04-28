@@ -1,0 +1,30 @@
+a
+{
+	color:#22BCE0;
+}
+body
+{
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+header
+{
+	background: #343854;//NUMERO HEXADECIMALES
+	color:white;
+}
+header h1
+{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+header #avatar img
+{
+	border-radius: 55px;
+	width:54px;
+}
+header #logo img
+{
+	width: 52px;
+}

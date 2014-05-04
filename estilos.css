@@ -1,3 +1,52 @@
+/*@font-face {
+    font-family: 'open_sansregular';
+    src: url('fuentes/OpenSans-Regular-webfont.eot');
+    src: url('fuentes/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fuentes/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fuentes/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fuentes/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('fuentes/icomoon.eot?nbftok');
+	src:url('fuentes/icomoon.eot?#iefixnbftok') format('embedded-opentype'),
+		url('fuentes/icomoon.woff?nbftok') format('woff'),
+		url('fuentes/icomoon.ttf?nbftok') format('truetype'),
+		url('fuentes/icomoon.svg?nbftok#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+	content: "\e601";
+}
+.icon-star:before {
+	content: "\e602";
+}
+.icon-arrow-down:before {
+	content: "\e604";
+}
+.icon-arrow-up:before {
+	content: "\e605";
+}
+
 a
 {
 	color:#22BCE0;
@@ -5,7 +54,7 @@ a
 body
 {
 	background: #EEEEEE;
-	font-family: Arial;
+	font-family: "open sans";
 	font-size: 16px;
 }
 footer
@@ -75,7 +124,8 @@ header #logo img
 }
 nav
 {
-	background:#80BCA3;
+	background:#80BCA3; /*#80BCA3*/
+	box-shadow:rgba(0, 0, 0, 0.5) 0px 0px 10px;
 	padding: 0 0.5em ;
 	position: relative;
 }

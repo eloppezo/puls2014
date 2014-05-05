@@ -37,12 +37,19 @@
 .icon-pencil:before {
 	content: "\e601";
 	margin-right:0.5em;
+	
 }
 .icon-star:before {
 	content: "\e602";
+	color:	#FFBE2C;
+	margin-right: .4em;
+	margin-top:0.5em;
+	position:	relative;
+	top: 0.1em;
 }
 .icon-arrow-down:before {
 	content: "\e604";
+	color: #DD4F24;
 }
 .icon-arrow-up:before {
 	content: "\e605";
@@ -230,6 +237,11 @@ nav ul li a
 	position:absolute;	
 	top:100%;
 	width:80%;
+	background:	white;
+}
+#contenido .item .votacion a{
+	text-decoration: none;
+
 }
 #contenido .item .votacion .comentarios_item,
 #contenido .item .votacion .guardar_item
